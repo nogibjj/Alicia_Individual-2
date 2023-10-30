@@ -9,16 +9,16 @@ The goal of this project is to do ETL on a gun dataset with the Commend tool kit
 ### Components:
 
 1. **Data Extraction:**
-   - The `extract` function downloads data from a specified URL and saves it to a local file.
+   - The `extract` exact dataset from website.
 
 2. **Data Transformation and Loading:**
-   - The `transform_load` function reads a CSV dataset and inserts its records into a SQLite database after performing necessary table operations. It creates a table named `ServeTimesDB` with specific columns.
+   - The `transform_load` read the CSV file and create a table ini SQLite.
 
-3. **Database Querying:**
-   - The `query` function allows users to perform SELECT, INSERT, UPDATE, and DELETE operations on the database. It logs the queries into a Markdown file named `query_log.md`.
+3. **CRUD**
+   - The `query` performs CREATE, INSERT, UPDATE, and DELETE queries on the database. 
 
-4. **Logging:**
-   - The `log_query` function appends SQL queries to a log file, facilitating tracking and analysis of executed queries.
+4. **Log**
+   - The `log_query` logs the queries into a markdown file.
 
 ### Preparation and Dependency Installation: 
 1. open codespaces 
