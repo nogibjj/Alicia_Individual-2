@@ -17,7 +17,7 @@ fn main() {
                 "data",
             );
         }
-        "transform_load" => match transform_load("/workspaces/Alicia_Individual-2/data/full_data.csv") {
+        "transform_load" => match transform_load("https://raw.githubusercontent.com/fivethirtyeight/guns-data/master/full_data.csv") {
             Ok(_) => println!("Loaded successfully!"),
             Err(err) => eprintln!("Error: {:?}", err),
         },
