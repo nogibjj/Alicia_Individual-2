@@ -3,7 +3,7 @@ use alicia_xia_sqlite::{extract, query, transform_load};
 #[test]
 fn test_extract() {
     let url =
-        "https://github.com/fivethirtyeight/guns-data/blob/master/full_data.csv?raw=true";
+        "https://raw.githubusercontent.com/fivethirtyeight/guns-data/master/full_data.csv";
     let file_path = "data/full_data.csv";
     let directory = "data";
 
