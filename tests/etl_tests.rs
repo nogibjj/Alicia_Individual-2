@@ -1,4 +1,4 @@
-use jeremy_tan_sqlite::{extract, query, transform_load};
+use alicia_xia_sqlite::{extract, query, transform_load};
 
 #[test]
 fn test_extract() {
