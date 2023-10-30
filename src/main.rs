@@ -13,11 +13,11 @@ fn main() {
         "extract" => {
             extract(
                 "https://raw.githubusercontent.com/fivethirtyeight/guns-data/master/full_data.csv",
-                "/workspaces/Alicia_Individual-2/data/full_data.csv",
+                "data/full_data.csv",
                 "data",
             );
         }
-        "transform_load" => match transform_load("https://raw.githubusercontent.com/fivethirtyeight/guns-data/master/full_data.csv") {
+        "transform_load" => match transform_load("data/full_data.csv") {
             Ok(_) => println!("Loaded successfully!"),
             Err(err) => eprintln!("Error: {:?}", err),
         },

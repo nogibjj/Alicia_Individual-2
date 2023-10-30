@@ -5,6 +5,7 @@ The goal of this project is to do ETL on a gun dataset with the Commend tool kit
 
 ## Youtube Video Link 
 
+https://youtu.be/TAuvX3zWpbA
 
 ### Components:
 
