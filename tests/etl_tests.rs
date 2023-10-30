@@ -4,7 +4,7 @@ use alicia_xia_sqlite::{extract, query, transform_load};
 fn test_extract() {
     let url =
         "https://raw.githubusercontent.com/fivethirtyeight/guns-data/master/full_data.csv";
-    let file_path = "data/full_data.csv";
+    let file_path = "/workspaces/Alicia_Individual-2/data/full_data.csv";
     let directory = "data";
 
     extract(url, file_path, directory);
@@ -14,7 +14,7 @@ fn test_extract() {
 
 #[test]
 fn test_transform_load() {
-    let dataset = "data/full_data.csv";
+    let dataset = "/workspaces/Alicia_Individual-2/data/full_data.csv";
     let result = transform_load(dataset);
 
     assert_eq!(result.unwrap(), "gundataDB.db");
